@@ -7,7 +7,6 @@ const qrcode = require('qrcode');
 const http = require('http');
 const fs = require('fs'); 
 const { convertVideo, sleep, downloadMedia } = require('./utils/helpers');
-const { phoneNumberFormatter } = require('./utils/formatter');
 const fileUpload = require('express-fileupload');
 const axios = require('axios');
 const mime = require('mime-types');
