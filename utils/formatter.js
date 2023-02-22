@@ -1,4 +1,6 @@
 const phoneNumberFormatter = function(number) {
+  
+
   // 1. Menghilangkan karakter selain angka
   let formatted = number.replace(/\D/g, '');
 
@@ -16,5 +18,5 @@ const phoneNumberFormatter = function(number) {
 }
 
 module.exports = {
-  phoneNumberFormatter
+  phoneNumberFormatter,
 }
